@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\backend",
+    "\\backend\\AgendaApi",
+    "\\backend\\AgendaApi\\Controllers",
+    "\\backend\\AgendaApi\\Data",
+    "\\backend\\AgendaApi\\DTOs",
+    "\\backend\\AgendaApi\\Repositories"
+  ],
+  "SelectedNode": "\\backend\\AgendaApi\\AgendaApi.csproj",
+  "PreviewInSolutionExplorer": false
+}
