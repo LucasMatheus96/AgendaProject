@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\Área de Trabalho\\Projetos\\AgendaProject\\backend\\agendaApi\\AgendaApi.csproj": {}
+    "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\Área de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\AgendaApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\Área de Trabalho\\Projetos\\AgendaProject\\backend\\agendaApi\\AgendaApi.csproj": {
+    "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\Área de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\AgendaApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\Área de Trabalho\\Projetos\\AgendaProject\\backend\\agendaApi\\AgendaApi.csproj",
+        "projectUniqueName": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\Área de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\AgendaApi.csproj",
         "projectName": "AgendaApi",
-        "projectPath": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\Área de Trabalho\\Projetos\\AgendaProject\\backend\\agendaApi\\AgendaApi.csproj",
+        "projectPath": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\Área de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\AgendaApi.csproj",
         "packagesPath": "C:\\Users\\lucas_silva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\Área de Trabalho\\Projetos\\AgendaProject\\backend\\agendaApi\\obj\\",
+        "outputPath": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\Área de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

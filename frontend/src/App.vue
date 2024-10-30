@@ -1,16 +1,20 @@
-
 <template>
-  <div id="app">
+  <div id="App">
     <Agenda />
   </div>
 </template>
 
-   
-
-
 <script>
 import Agenda from './components/Agenda.vue'; // Importando o componente
 
-const app = createApp(App);
-app.component('Button', Button);
+export default {
+  name: 'App', // Nome do componente
+  components: {
+    Agenda, // Registrando o componente Agenda
+  },
+};
 </script>
+
+<style>
+/* Adicione seus estilos aqui */
+</style>

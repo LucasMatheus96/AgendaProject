@@ -1,18 +1,17 @@
-import { createApp } from 'vue';
+import { createApp } from 'vue'; // Certifique-se de importar corretamente
 import App from './App.vue';
-// import router from './router'; // se estiver usando Vue Router
 import PrimeVue from 'primevue/config';
-import Aura from '@primevue/themes/aura';
-import 'primeicons/primeicons.css' // tema do PrimeVue
 
+// Estilos globais do PrimeVue (ajuste conforme necessário)
+import 'primevue/resources/themes/saga-blue/theme.css';
+import 'primevue/resources/primevue.min.css';
+import 'primeicons/primeicons.css';
 
+// Criação da aplicação Vue e configuração do PrimeVue
 const app = createApp(App);
 
-// app.use(router); // se estiver usando Vue Router
-app.use(PrimeVue , {
-    theme:{
-        present:Aura,
-    },
-});
+// Registrar o PrimeVue como plugin global
+app.use(PrimeVue);
 
+// Montar a aplicação no elemento com ID "app"
 app.mount('#app');

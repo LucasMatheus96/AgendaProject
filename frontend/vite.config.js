@@ -1,9 +1,11 @@
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
-import { createSvgIconsPlugin } from 'vite-plugin-svg-icons';
+// Se precisar de suporte a JSX, descomente a linha abaixo:
+// import vueJsx from '@vitejs/plugin-vue-jsx';
 
 export default defineConfig({
-  plugins: [vue(), createSvgIconsPlugin({
-    // Configurações do plugin SVG, se necessário
-  })],
+  plugins: [
+    vue(),
+    // vueJsx(), // Descomente se for necessário
+  ],
 });
