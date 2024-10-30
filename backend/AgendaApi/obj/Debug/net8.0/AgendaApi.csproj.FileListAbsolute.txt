@@ -146,3 +146,4 @@ C:\Users\lucas_silva\OneDrive - CONSULTICART\Área de Trabalho\Projetos\AgendaPr
 C:\Users\lucas_silva\OneDrive - CONSULTICART\Área de Trabalho\Projetos\AgendaProject\backend\AgendaApi\obj\Debug\net8.0\AgendaApi.pdb
 C:\Users\lucas_silva\OneDrive - CONSULTICART\Área de Trabalho\Projetos\AgendaProject\backend\AgendaApi\obj\Debug\net8.0\AgendaApi.genruntimeconfig.cache
 C:\Users\lucas_silva\OneDrive - CONSULTICART\Área de Trabalho\Projetos\AgendaProject\backend\AgendaApi\obj\Debug\net8.0\ref\AgendaApi.dll
+C:\Users\lucas_silva\OneDrive - CONSULTICART\Área de Trabalho\Projetos\AgendaProject\backend\agendaApi\obj\Debug\net8.0\AgendaApi.sourcelink.json

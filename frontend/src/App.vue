@@ -1,17 +1,16 @@
-<script setup>
-
-</script>
-
 
 <template>
-  <div>
-    <h1>Lista de Eventos</h1>
-    <ul>
-      <li v-for="evento in eventos" :key="evento.id">
-        {{ evento.nome }} - {{ evento.data }}
-      </li>
-    </ul>
-    <button @click="adicionarEvento">Adicionar Evento</button>
+  <div id="app">
+    <Agenda />
   </div>
 </template>
 
+   
+
+
+<script>
+import Agenda from './components/Agenda.vue'; // Importando o componente
+
+const app = createApp(App);
+app.component('Button', Button);
+</script>
