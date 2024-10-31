@@ -8,7 +8,7 @@
       
     </div>
     <div class="gridCadastroContato">
-      <DataTable v-model:selection="selectedProduct" :value="agenda" dataKey="id" :paginator="true" :rows="5" :responsiveLayout="'scroll'">
+      <DataTable  :value="agenda" dataKey="id" :paginator="true" :rows="5" :responsiveLayout="'scroll'">
       <Column selectionMode="single" headerStyle="width: 3rem"></Column>
       <Column field="id" header="ID" />
       <Column field="nome" header="Nome" />
@@ -16,8 +16,8 @@
       <Column field="email" header="Email" />
       <Column header="Ações">
         <template #body="slotProps">
-          <Button class="btnAlterar" label="Alterar" @click="editRow(slotProps.index)" />
-          <Button label="Excluir" @click="deleteRow(slotProps.index)" class="p-button-danger" />
+          <Button class="btnAlterar" label="Alterar" @click="editRow(slotProps.data)" />
+          <Button label="Excluir" @click="deleteRow(slotProps.data.id)" class="p-button-danger" />
         </template>
       </Column> 
       </DataTable>
@@ -27,7 +27,7 @@
         <InputText v-model="newRow.id" placeholder="id" v-show="false" />
         <InputText v-model="newRow.nome" placeholder="Nome" />
         <InputText v-model="newRow.telefone" placeholder="Telefone" />
-        <InputText v-model="newRow.email" placeholder="Email" />
+        <InputText v-model="newRow.email" placeholder="Email" />        
         <Button label="Salvar" @click="saveRow" />
       </div>
       </Dialog>
@@ -38,6 +38,7 @@
 </template>
 <script>
 import { ref, h } from 'vue';
+import axios from 'axios';
 
 import Button from 'primevue/button';
 import InputText from 'primevue/inputtext';
@@ -65,50 +66,87 @@ setup(){
   const nome = ref('')
   const email = ref('')
   const telefone = ref('')
+  
 
-    const adicionar = () => { // Adiciona a nova linha
+  const carregarAgenda = async () => {
+      try {
+        const response = await axios.get('http://localhost:5000/api/agenda');
+        agenda.value = response.data;
+      } catch (error) {
+        console.error('Erro ao carregar a agenda:', error);
+      }
+    };
+
+    const adicionar = async () => { // Adiciona a nova linha
 debugger
+try {
       if (!nome.value || !telefone.value || !email.value) {
         alert('Por favor, preencha todos os campos.');
         return;
-      }
+      }      
+        const response = await axios.post('http://localhost:5000/api/agenda/contato', {
+          nome: nome.value,
+          telefone: telefone.value,
+          email: email.value,
+          dtDataCadastro: new Date().toISOString()
+        });
 
-      agenda.value.push({
-        id: agenda.value.length + 1,
-        nome: nome.value,
-        telefone: telefone.value,
-        email: email.value,
-      });
-
+        agenda.value.push(response.data);     
        // Limpa os campos
       nome.value = '';
       telefone.value = '';
       email.value = '';
-    };
 
+    }catch(error){
+      alert('Erro ao adicionar contato', error)
+    };
+  }
     const editRow = (row) => {
       dialogVisible.value = true;
       newRow.value = { ...row };
-      currentRowIndex.value = row;
+      currentRowIndex.value = row.id;
+
+      // Carrega os dados nos campos
+      nome.value = row.nome; // Carrega o nome no campo correspondente
+      telefone.value = row.telefone; // Carrega o telefone no campo correspondente
+      email.value = row.email; // Carrega o email no campo correspondente
     };
 
-    const saveRow = () => {
+    const saveRow = async () => {
+      try {
       if (currentRowIndex.value !== null && currentRowIndex.value >= 0) {
+
+        await axios.put(`http://localhost:5000/api/agenda/contato/${currentRowIndex.value}`, {
+          nome: newRow.value.nome,
+          telefone: newRow.value.telefone,
+          email: newRow.value.email,
+        });
         // Atualiza a linha existente
-        agenda.value[currentRowIndex.value] = { ...newRow.value , id: currentRowIndex.value + 1};
+        const index = agenda.value.findIndex((item) => item.id === currentRowIndex.value);
+        agenda.value[index] = { ...newRow.value, id: currentRowIndex.value };
       }
       dialogVisible.value = false;
       resetNewRow();
-    };
+    }catch(error){
+      console.error('Erro ao salvar contato:', error);
+    };}
 
-    const deleteRow = (index) => {
-  agenda.value.splice(index, 1); // Remove a linha pelo índice
-};
+     // Função para excluir contato
+     const deleteRow = async (id) => {
+      try {
+        await axios.delete(`http://localhost:5000/api/agenda/contato/${id}`);
+        agenda.value = agenda.value.filter((item) => item.id !== id);
+      } catch (error) {
+        console.error('Erro ao excluir contato:', error);
+      }
+    };
 
     const resetNewRow = () => {
       newRow.value = { nome: '', telefone: '', email: '' };
       currentRowIndex.value = null;
     };
+
+    carregarAgenda();
     return {
       agenda,
       rows,
