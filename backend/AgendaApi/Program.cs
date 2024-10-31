@@ -51,40 +51,41 @@ app.MapControllers();
 // Rotas da API CRUD
 app.MapGet("/eventos/agenda", () => 
 {
-    var eventos = new List<Evento>();
+    var lstContato = new List<Contato>();
     
-    Evento evento = new Evento();
-    evento.Id = 1;
-    evento.Data= new DateTime();
-    evento.Descricao = "Validando Lucas";
-    evento.Titulo = "Teste De Conehcimento";
+    Contato contato = new Contato();
+    contato.Id = 1;
+    contato.Data= new DateTime();
+    contato.Telefone = "Validando Lucas";
+    contato.Email = "Teste De Conehcimento";
 
-    eventos.Add(evento);
+    lstContato.Add(contato);
 
-    return Results.Ok(eventos);
+    return Results.Ok(lstContato);
 
 });
 
 app.MapGet("/eventos/{id}", async (int id, AgendaContext db) =>
-    await db.Eventos.FindAsync(id) is Evento evento
-        ? Results.Ok(evento)
+    await db.Contatos.FindAsync(id) is Contato contato
+        ? Results.Ok(contato)
         : Results.NotFound());
 
-app.MapPost("/eventos", async (Evento evento, AgendaContext db) =>
+app.MapPost("/eventos", async (Contato contato, AgendaContext db) =>
 {
-    db.Eventos.Add(evento);
+    db.Contatos.Add(contato);
     await db.SaveChangesAsync();
-    return Results.Created($"/eventos/{evento.Id}", evento);
+    return Results.Created($"/eventos/{contato.Id}", contato);
 });
 
-app.MapPut("/eventos/{id}", async (int id, Evento eventoAtualizado, AgendaContext db) =>
+app.MapPut("/eventos/{id}", async (int id, Contato contatoAtualizado, AgendaContext db) =>
 {
-    var evento = await db.Eventos.FindAsync(id);
-    if (evento is null) return Results.NotFound();
+    var contato = await db.Contatos.FindAsync(id);
+    if (contato is null) return Results.NotFound();
 
-    evento.Titulo = eventoAtualizado.Titulo;
-    evento.Data = eventoAtualizado.Data;
-    evento.Descricao = eventoAtualizado.Descricao;
+    contato.Nome = contatoAtualizado.Nome;
+    contato.Data = contatoAtualizado.Data;
+    contato.Telefone = contatoAtualizado.Telefone;
+    contato.Email = contatoAtualizado.Email;
 
     await db.SaveChangesAsync();
     return Results.NoContent();
@@ -92,10 +93,10 @@ app.MapPut("/eventos/{id}", async (int id, Evento eventoAtualizado, AgendaContex
 
 app.MapDelete("/eventos/{id}", async (int id, AgendaContext db) =>
 {
-    var evento = await db.Eventos.FindAsync(id);
+    var evento = await db.Contatos.FindAsync(id);
     if (evento is null) return Results.NotFound();
 
-    db.Eventos.Remove(evento);
+    db.Contatos.Remove(evento);
     await db.SaveChangesAsync();
     return Results.NoContent();
 });
