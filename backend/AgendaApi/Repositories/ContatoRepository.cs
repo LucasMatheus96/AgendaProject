@@ -1,6 +1,7 @@
 using AgendaApi.Models;
 using Microsoft.EntityFrameworkCore;
 using AgendaApi.Data;
+using System;
 
 namespace AgendaApi.Repositories;
 
