@@ -3,11 +3,8 @@
     "",
     "\\backend",
     "\\backend\\AgendaApi",
-    "\\backend\\AgendaApi\\Controllers",
-    "\\backend\\AgendaApi\\Data",
-    "\\backend\\AgendaApi\\DTOs",
-    "\\backend\\AgendaApi\\Repositories"
+    "\\backend\\AgendaApi\\Migrations"
   ],
-  "SelectedNode": "\\backend\\AgendaApi\\AgendaApi.csproj",
+  "SelectedNode": "\\backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.cs",
   "PreviewInSolutionExplorer": false
 }

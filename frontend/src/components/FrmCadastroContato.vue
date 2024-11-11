@@ -49,6 +49,7 @@
 <script>
 import { ref, h } from 'vue';
 import axios from 'axios';
+import api from '../services/api.js';
 
 
 import Button from 'primevue/button';
@@ -84,18 +85,19 @@ setup(){
   const dialogType = ref('');
   const dialogTitle = ref('');
   const dialogMessage = ref('');
+
   
-//Lista todos os contatos da agenda
+
 const carregarAgenda = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/agenda');
+        const response = await api.get('/');
         agenda.value = response.data;
       } catch (error) {
         showDialogBox('error', 'Erro', 'Falha ao carregar lista de usuario');    
       }
     };
 
-//Adicionar novo Contato
+
 const adicionar = async () => { 
   try {
         if (!nome.value || !telefone.value || !email.value) {
@@ -103,7 +105,7 @@ const adicionar = async () => {
          
           return;
         }      
-          const response = await axios.post('http://localhost:5000/api/agenda/contato', {
+          const response = await api.post('/', {
             nome: nome.value,
             telefone: telefone.value,
             email: email.value,
@@ -112,7 +114,7 @@ const adicionar = async () => {
 
         agenda.value.push(response.data); 
 
-        // Limpa os campos
+      
         nome.value = '';
         telefone.value = '';
         email.value = '';
@@ -124,13 +126,13 @@ const adicionar = async () => {
       };
   }
 
-//Editar um registro já existente 
+
   const editRow = (row) => {
       dialogVisible.value = true;
       newRow.value = { ...row };
       currentRowIndex.value = row.id;
 
-      // Carrega os dados nos campos
+     
       nome.value = row.nome; 
       telefone.value = row.telefone; 
       email.value = row.email; 
@@ -140,12 +142,12 @@ const adicionar = async () => {
       try {
       if (currentRowIndex.value !== null && currentRowIndex.value >= 0) {
 
-        await axios.put(`http://localhost:5000/api/agenda/contato/${currentRowIndex.value}`, {
+        await api.put(`/${currentRowIndex.value}`, {
           nome: newRow.value.nome,
           telefone: newRow.value.telefone,
           email: newRow.value.email,
+          dtDataCadastro: new Date().toISOString()
         });
-        // Atualiza a linha existente
         const index = agenda.value.findIndex((item) => item.id === currentRowIndex.value);
         agenda.value[index] = { ...newRow.value, id: currentRowIndex.value };
       }
@@ -155,10 +157,10 @@ const adicionar = async () => {
       showDialogBox('error', 'Erro', 'Falha ao concluir a alteração do contato');    
     };}
 
-     // Função para excluir contato
+     
   const deleteRow = async (id) => {
       try {
-        await axios.delete(`http://localhost:5000/api/agenda/contato/${id}`);
+        await api.delete(`/${id}`);
         agenda.value = agenda.value.filter((item) => item.id !== id);
       } catch (error) {
         showDialogBox('error', 'Erro', 'Erro ao excluir contato');        
@@ -171,9 +173,9 @@ const adicionar = async () => {
   };
 
   const formatPhone = () => {
-      let fone = telefone.value.replace(/\D/g, ''); // Remove tudo que não for número
+      let fone = telefone.value.replace(/\D/g, ''); 
 
-      // Aplica o formato (00) 00000-0000
+     
       fone = fone.replace(/^(\d{2})(\d)/, '($1) $2');
       fone = fone.replace(/(\d{5})(\d)/, '$1-$2');
 
@@ -182,7 +184,7 @@ const adicionar = async () => {
 
 
     const validateEmail = () => {
-      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Regex para validação de email
+      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!emailPattern.test(email.value)) {
         showDialogBox('warning', 'Aviso', 'Informe um E-mail inválido');
       } else {

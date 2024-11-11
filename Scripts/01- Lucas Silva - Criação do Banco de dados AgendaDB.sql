@@ -1,0 +1,14 @@
+CREATE DATABASE AgendaDB
+GO
+
+USE AgendaDB
+GO
+
+CREATE TABLE Contatos (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    nome VARCHAR(250) NOT NULL,
+    telefone VARCHAR(20) NOT NULL,
+    email VARCHAR(200) NOT NULL,
+	dtDataCadastro DATETIME NOT NULL
+);
+GO

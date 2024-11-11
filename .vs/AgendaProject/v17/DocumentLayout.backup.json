@@ -3,42 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Data\\AgendaContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\Data\\AgendaContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Models\\Evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\Models\\Evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Repositories\\EventoRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\Repositories\\EventoRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Migrations\\AgendaContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\Migrations\\AgendaContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\AgendaApi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\AgendaApi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\7.0.402\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Models\\Contato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\Models\\Contato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Controllers\\ContatoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\Controllers\\ContatoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\DTOs\\EventoDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\DTOs\\EventoDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Services\\ContatoService.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\Services\\ContatoService.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Repositories\\ContatoRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\Repositories\\ContatoRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Services\\IContatoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\Services\\IContatoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Data\\AgendaContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\Data\\AgendaContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -48,138 +54,143 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "backend\\AgendaApi\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Properties\\launchSettings.json",
-              "RelativeToolTip": "backend\\AgendaApi\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-25T18:54:40.466Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Program.cs",
-              "RelativeDocumentMoniker": "backend\\AgendaApi\\Program.cs",
-              "ToolTip": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Program.cs",
-              "RelativeToolTip": "backend\\AgendaApi\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAADwvxEAAAADAAAAAAAAAA==",
+              "Title": "20241111142948_InitialCreate.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.Designer.cs",
+              "RelativeDocumentMoniker": "backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.Designer.cs",
+              "ToolTip": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.Designer.cs",
+              "RelativeToolTip": "backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T18:27:18.238Z",
+              "WhenOpened": "2024-11-11T14:30:01.469Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Evento.cs",
-              "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Models\\Evento.cs",
-              "RelativeDocumentMoniker": "backend\\AgendaApi\\Models\\Evento.cs",
-              "ToolTip": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Models\\Evento.cs",
-              "RelativeToolTip": "backend\\AgendaApi\\Models\\Evento.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "20241111142948_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.cs",
+              "RelativeDocumentMoniker": "backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.cs",
+              "RelativeToolTip": "backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T18:22:40.206Z",
+              "WhenOpened": "2024-11-11T14:29:56.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Microsoft.PackageDependencyResolution.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.403\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "Title": "AgendaContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Migrations\\AgendaContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "backend\\AgendaApi\\Migrations\\AgendaContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Migrations\\AgendaContextModelSnapshot.cs",
+              "RelativeToolTip": "backend\\AgendaApi\\Migrations\\AgendaContextModelSnapshot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-10-25T18:22:13.916Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T14:29:54.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\appsettings.json",
-              "RelativeDocumentMoniker": "backend\\AgendaApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\appsettings.json",
-              "RelativeToolTip": "backend\\AgendaApi\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-25T17:48:29.812Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AgendaContext.cs",
-              "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Data\\AgendaContext.cs",
-              "RelativeDocumentMoniker": "backend\\AgendaApi\\Data\\AgendaContext.cs",
-              "ToolTip": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Data\\AgendaContext.cs",
-              "RelativeToolTip": "backend\\AgendaApi\\Data\\AgendaContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Contato.cs",
+              "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Models\\Contato.cs",
+              "RelativeDocumentMoniker": "backend\\AgendaApi\\Models\\Contato.cs",
+              "ToolTip": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Models\\Contato.cs",
+              "RelativeToolTip": "backend\\AgendaApi\\Models\\Contato.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:47:17.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-11T13:11:13.252Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EventoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Repositories\\EventoRepository.cs",
-              "RelativeDocumentMoniker": "backend\\AgendaApi\\Repositories\\EventoRepository.cs",
-              "ToolTip": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Repositories\\EventoRepository.cs",
-              "RelativeToolTip": "backend\\AgendaApi\\Repositories\\EventoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:46:59.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EventoDto.cs",
-              "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\DTOs\\EventoDto.cs",
-              "RelativeDocumentMoniker": "backend\\AgendaApi\\DTOs\\EventoDto.cs",
-              "ToolTip": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\DTOs\\EventoDto.cs",
-              "RelativeToolTip": "backend\\AgendaApi\\DTOs\\EventoDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:46:19.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Microsoft.NET.TargetFrameworkInference.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\7.0.402\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\7.0.402\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKQAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-10-25T17:54:48.017Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "AgendaApi.csproj",
               "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\AgendaApi.csproj",
               "RelativeDocumentMoniker": "backend\\AgendaApi\\AgendaApi.csproj",
               "ToolTip": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\AgendaApi.csproj",
               "RelativeToolTip": "backend\\AgendaApi\\AgendaApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-24T16:30:57.729Z",
+              "WhenOpened": "2024-11-11T13:06:29.301Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AgendaContext.cs",
+              "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Data\\AgendaContext.cs",
+              "RelativeDocumentMoniker": "backend\\AgendaApi\\Data\\AgendaContext.cs",
+              "ToolTip": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Data\\AgendaContext.cs",
+              "RelativeToolTip": "backend\\AgendaApi\\Data\\AgendaContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T12:59:17.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContatoService.cs",
+              "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Services\\ContatoService.cs",
+              "RelativeDocumentMoniker": "backend\\AgendaApi\\Services\\ContatoService.cs",
+              "ToolTip": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Services\\ContatoService.cs",
+              "RelativeToolTip": "backend\\AgendaApi\\Services\\ContatoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T12:50:45.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IContatoService.cs",
+              "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Services\\IContatoService.cs",
+              "RelativeDocumentMoniker": "backend\\AgendaApi\\Services\\IContatoService.cs",
+              "ToolTip": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Services\\IContatoService.cs",
+              "RelativeToolTip": "backend\\AgendaApi\\Services\\IContatoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T12:49:25.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContatoController.cs",
+              "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Controllers\\ContatoController.cs",
+              "RelativeDocumentMoniker": "backend\\AgendaApi\\Controllers\\ContatoController.cs",
+              "ToolTip": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Controllers\\ContatoController.cs",
+              "RelativeToolTip": "backend\\AgendaApi\\Controllers\\ContatoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T12:45:42.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Program.cs",
+              "RelativeDocumentMoniker": "backend\\AgendaApi\\Program.cs",
+              "ToolTip": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Program.cs",
+              "RelativeToolTip": "backend\\AgendaApi\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T03:53:34.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ContatoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Repositories\\ContatoRepository.cs",
+              "RelativeDocumentMoniker": "backend\\AgendaApi\\Repositories\\ContatoRepository.cs",
+              "ToolTip": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Repositories\\ContatoRepository.cs",
+              "RelativeToolTip": "backend\\AgendaApi\\Repositories\\ContatoRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T03:51:48.951Z"
             }
           ]
         }
