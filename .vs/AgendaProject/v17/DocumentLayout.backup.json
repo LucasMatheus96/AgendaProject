@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Services\\ContatoService.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\Services\\ContatoService.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Migrations\\AgendaContextModelSnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Controllers\\ContatoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\Controllers\\ContatoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Services\\ContatoService.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend\\AgendaApi\\Services\\ContatoService.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Repositories\\ContatoRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "20241111142948_InitialCreate.Designer.cs",
               "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.Designer.cs",
               "RelativeDocumentMoniker": "backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.Designer.cs",
@@ -71,20 +71,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "20241111142948_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.cs",
               "RelativeDocumentMoniker": "backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.cs",
               "ToolTip": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.cs",
               "RelativeToolTip": "backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-11T14:29:56.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AgendaContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Migrations\\AgendaContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "backend\\AgendaApi\\Migrations\\AgendaContextModelSnapshot.cs",
@@ -97,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Contato.cs",
               "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Models\\Contato.cs",
               "RelativeDocumentMoniker": "backend\\AgendaApi\\Models\\Contato.cs",
@@ -109,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AgendaApi.csproj",
               "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\AgendaApi.csproj",
               "RelativeDocumentMoniker": "backend\\AgendaApi\\AgendaApi.csproj",
@@ -134,15 +134,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "ContatoService.cs",
               "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Services\\ContatoService.cs",
               "RelativeDocumentMoniker": "backend\\AgendaApi\\Services\\ContatoService.cs",
               "ToolTip": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Services\\ContatoService.cs",
               "RelativeToolTip": "backend\\AgendaApi\\Services\\ContatoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-11T12:50:45.871Z"
+              "WhenOpened": "2024-11-11T12:50:45.871Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -158,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ContatoController.cs",
               "DocumentMoniker": "C:\\Users\\lucas_silva\\OneDrive - CONSULTICART\\\u00C1rea de Trabalho\\Projetos\\AgendaProject\\backend\\AgendaApi\\Controllers\\ContatoController.cs",
               "RelativeDocumentMoniker": "backend\\AgendaApi\\Controllers\\ContatoController.cs",
@@ -190,7 +191,8 @@
               "RelativeToolTip": "backend\\AgendaApi\\Repositories\\ContatoRepository.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T03:51:48.951Z"
+              "WhenOpened": "2024-10-31T03:51:48.951Z",
+              "EditorCaption": ""
             }
           ]
         }

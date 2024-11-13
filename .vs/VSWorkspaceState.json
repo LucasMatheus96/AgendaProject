@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\backend",
-    "\\backend\\AgendaApi",
-    "\\backend\\AgendaApi\\Migrations"
+    "\\backend\\AgendaApi"
   ],
-  "SelectedNode": "\\backend\\AgendaApi\\Migrations\\20241111142948_InitialCreate.cs",
   "PreviewInSolutionExplorer": false
 }
